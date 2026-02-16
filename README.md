@@ -17,20 +17,24 @@ This project builds an artificial perception system to classify breast tumors as
 Feature importance analysis shows that tumor size and boundary irregularity dominate classification decisions. Worst-case perimeter, area, and concave point measurements contribute most strongly, indicating reliance on the most atypical observed cell regions.
 
 ## Project Structure
+data/ dataset
+models/ trained model + scaler
+results/ figures and metrics
+src/ training and prediction code
 
 ## Usage
 
 Install dependencies:
-
-
+pip install -r requirements.txt
 Train model:
 
-
+python src/train.py
 Predict on new data:
 
-
+python src/predict.py
 ## Dataset
 
 UCI Breast Cancer Wisconsin dataset containing 569 tumor samples with 30 morphological features derived from digitized biopsy images.
+
 
 
