@@ -18,3 +18,19 @@ Feature importance analysis shows that tumor size and boundary irregularity domi
 
 ## Project Structure
 
+## Usage
+
+Install dependencies:
+
+
+Train model:
+
+
+Predict on new data:
+
+
+## Dataset
+
+UCI Breast Cancer Wisconsin dataset containing 569 tumor samples with 30 morphological features derived from digitized biopsy images.
+
+
